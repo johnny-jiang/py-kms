@@ -73,7 +73,8 @@ class kmsBase:
 		uuid.UUID("0FF1CE15-A989-479D-AF46-F275C6370663") : "Office 15 (2013)",
 	}
 
-	skuIds = {uuid.UUID("ad2542d4-9154-4c6d-8a44-30f11ee96989") : "Windows Server 2008 Standard",
+	skuIds = {
+                 uuid.UUID("ad2542d4-9154-4c6d-8a44-30f11ee96989") : "Windows Server 2008 Standard",
                  uuid.UUID("2401e3d0-c50a-4b58-87b2-7e794b7d2607") : "Windows Server 2008 StandardV",
                  uuid.UUID("68b6e220-cf09-466b-92d3-45cd964b9509") : "Windows Server 2008 Datacenter",
                  uuid.UUID("fd09ef77-5647-4eff-809c-af2b64659a45") : "Windows Server 2008 DatacenterV",
